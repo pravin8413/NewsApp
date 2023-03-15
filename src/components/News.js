@@ -63,7 +63,7 @@ export default class News extends Component {
         //         })
         //     })
         this.updateNews()
-        console.log(this.state.articles);
+        console.log(this.state.apiKey);
 
 
     }
