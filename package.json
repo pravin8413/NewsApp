@@ -1,7 +1,7 @@
 {
   "name": "news-app",
   "version": "0.1.0",
-  "homepage": "https://pravin8413.github.io/NewsApp",
+  "homepage": "https://github.com/pravin8413/News",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
