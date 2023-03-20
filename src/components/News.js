@@ -124,9 +124,9 @@ export default function News(props) {
             <h2 className='text-center' style={{ margin: '100px 0px',marginTop: '90px'}}>NewsMonkey - Top Headline from {capitalizeFirstLetter(props.category)} category</h2>
             {this.state.loading && <Spinner />}
             <InfiniteScroll
-                dataLength={articles?.length}
+                dataLength={articles.length}
                 next={fetchMoreData}
-                hasMore={articles?.length !== totalResults}
+                hasMore={articles.length !== totalResults}
                 loader={<Spinner />}
             >
                 <div className='container'>
